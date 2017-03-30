@@ -14,7 +14,7 @@ header {
 #headerImage {
   margin: 0;
   width: 100%;
-  height: 612px;
+  height: 650px;
   background-image: url(http://boostinteractivemedia.com/wp-content/uploads/2015/06/hp-header8.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -22,12 +22,19 @@ header {
 }
 
 nav {
-  background-color: darken($color-four, 25%);
+  background-color: darken($color-four, 10%);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+a,
+p,
+h1 {
+  font-family: "Arial", sans-serif;
+  color: white;
 }
 
 a,
@@ -42,8 +49,8 @@ img {
   margin: 0;
   padding: 0;
   font-size: 4em;
-  color: $color-one;
-  padding-top: 450px;
+  padding-top: 475px;
+  color: white;
 }
 
 #profilePic {
@@ -61,9 +68,10 @@ img {
 .sectionHead {
   margin: 0;
   padding: 10px;
-  background-color: $color-three;
+  background-color: $color-one;
   font-size: 3em;
   text-align: center;
+  color: white;
 }
 
 .link {
@@ -85,15 +93,27 @@ img {
 
 .gameName {
   font-size: 3em;
+  margin-bottom: 75px;
+  color: black;
 }
 
 .gamePic {
   max-width: 100%;
   max-height: 300px;
   flex-grow: 1;
+  margin-bottom: 75px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .personalInfo {
   margin: 50px 60px;
-  font-size: 2em;
+  font-size: 1.75em;
+  color: black;
+  text-align: left;
+}
+
+.blueBar {
+  height: 20px;
+  background-color: $color-five;
 }
